@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio and CV of Your Full Name — ICT Student">
+  <title>Your Full Name | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#top" class="nav__logo">Your Name</a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+        <span class="theme-toggle__icon" aria-hidden="true">&#9790;</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero section" id="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <!-- EDIT: Your name -->
+          <p class="hero__eyebrow">Hello, I'm</p>
+          <h1 class="hero__title" id="hero-heading">Your Full Name</h1>
+          <!-- EDIT: Your headline -->
+          <p class="hero__subtitle">ICT Student &amp; Aspiring Developer</p>
+          <!-- EDIT: Short intro (1–2 sentences) -->
+          <p class="hero__text">
+            I am a motivated student passionate about technology, programming, and building
+            practical solutions. I enjoy learning new tools and turning ideas into working projects.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--outline">Get In Touch</a>
+          </div>
+        </div>
+
+        <div class="hero__image-wrap">
+          <!-- EDIT: Replace with <img src="assets/profile.jpg" alt="Your Full Name"> when ready -->
+          <div class="hero__avatar" role="img" aria-label="Profile photo placeholder">
+            <span>Photo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 class="section__title" id="about-heading">About Me</h2>
+        <div class="about__grid">
+          <div class="card about__card">
+            <!-- EDIT: About paragraph -->
+            <p>
+              Write a short bio here. Mention what you study, what areas of tech interest you
+              most, and what kind of opportunities you are looking for (internships, freelance,
+              university projects, etc.).
+            </p>
+            <p>
+              Example focus areas: web development, databases, problem solving, and continuous learning.
+            </p>
+          </div>
+          <ul class="about__details">
+            <!-- EDIT: Location — city/region only, not full address -->
+            <li><strong>Location:</strong> Your City, Your Country</li>
+            <li><strong>Status:</strong> Student</li>
+            <li><strong>Languages:</strong> English, [Add others]</li>
+            <li><strong>Interests:</strong> Programming, Technology, [Add yours]</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <h2 class="section__title" id="education-heading">Education</h2>
+        <div class="timeline">
+
+          <article class="timeline__item card">
+            <!-- EDIT: Education entry 1 -->
+            <p class="timeline__date">Year – Present</p>
+            <h3 class="timeline__title">Degree / Programme Name</h3>
+            <p class="timeline__org">University or Institution Name</p>
+            <p class="timeline__desc">Brief description — e.g. Bachelor of Information Technology (in progress).</p>
+          </article>
+
+          <article class="timeline__item card">
+            <!-- EDIT: Education entry 2 -->
+            <p class="timeline__date">Year – Year</p>
+            <h3 class="timeline__title">Foundation / Diploma Name</h3>
+            <p class="timeline__org">Institution Name</p>
+            <p class="timeline__desc">Brief description of what you studied or achieved.</p>
+          </article>
+
+          <article class="timeline__item card">
+            <!-- EDIT: Education entry 3 -->
+            <p class="timeline__date">Year</p>
+            <h3 class="timeline__title">School / O/L or A/L</h3>
+            <p class="timeline__org">School Name</p>
+            <p class="timeline__desc">Key results or subjects — e.g. Maths A, ICT A.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 class="section__title" id="skills-heading">Skills</h2>
+        <div class="skills__grid">
+
+          <div class="card skills__group">
+            <h3 class="skills__heading">Technical</h3>
+            <ul class="tag-list">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">PHP</li>
+              <li class="tag">SQL</li>
+              <li class="tag">Git</li>
+            </ul>
+          </div>
+
+          <div class="card skills__group">
+            <h3 class="skills__heading">Tools &amp; Platforms</h3>
+            <ul class="tag-list">
+              <li class="tag">VS Code</li>
+              <li class="tag">MySQL</li>
+              <li class="tag">Microsoft Office</li>
+              <li class="tag">Linux / Windows</li>
+            </ul>
+          </div>
+
+          <div class="card skills__group">
+            <h3 class="skills__heading">Soft Skills</h3>
+            <ul class="tag-list">
+              <li class="tag">Problem Solving</li>
+              <li class="tag">Communication</li>
+              <li class="tag">Teamwork</li>
+              <li class="tag">Time Management</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 class="section__title" id="projects-heading">Projects</h2>
+        <div class="projects__grid">
+
+          <article class="card project-card">
+            <!-- EDIT: Project 1 -->
+            <h3 class="project-card__title">Project Title One</h3>
+            <p class="project-card__desc">
+              Describe what the project does, what problem it solves, and your role in building it.
+            </p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">Live Demo</a>
+              <a href="#" class="project-card__link">Source Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <!-- EDIT: Project 2 -->
+            <h3 class="project-card__title">Project Title Two</h3>
+            <p class="project-card__desc">
+              A school assignment, database project, or small app you built. Even coursework counts early on.
+            </p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">PHP</li>
+              <li class="tag">MySQL</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">Live Demo</a>
+              <a href="#" class="project-card__link">Source Code</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <!-- EDIT: Project 3 -->
+            <h3 class="project-card__title">Project Title Three</h3>
+            <p class="project-card__desc">
+              Add a third project when ready. Replace the # links with real URLs or remove unused links.
+            </p>
+            <ul class="tag-list tag-list--sm">
+              <li class="tag">Python</li>
+              <li class="tag">DSA</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#" class="project-card__link">Live Demo</a>
+              <a href="#" class="project-card__link">Source Code</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 class="section__title" id="contact-heading">Contact</h2>
+        <div class="contact__grid">
+          <div class="card contact__info">
+            <p>Feel free to reach out for collaborations, opportunities, or just to say hello.</p>
+            <ul class="contact__list">
+              <!-- EDIT: Your contact details -->
+              <li>
+                <strong>Email:</strong>
+                <a href="mailto:your.email@example.com">your.email@example.com</a>
+              </li>
+              <li>
+                <strong>Phone:</strong>
+                <a href="tel:+94000000000">+94 00 000 0000</a>
+              </li>
+              <li>
+                <strong>GitHub:</strong>
+                <a href="#" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
+              </li>
+              <li>
+                <strong>LinkedIn:</strong>
+                <a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourusername</a>
+              </li>
+            </ul>
+          </div>
+
+          <form class="card contact__form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+            <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+            <p class="contact__form-note">Opens your email app to send the message.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>&copy; <span id="year"></span> Your Full Name. All rights reserved.</p>
+      <a href="assets/cv.pdf" class="site-footer__cv" download>Download CV (PDF)</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
